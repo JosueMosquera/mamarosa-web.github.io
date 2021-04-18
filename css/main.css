@@ -97,7 +97,7 @@ body{
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 30px;
+    gap: 10px;
 
 }
 .testimony__item{
@@ -105,9 +105,9 @@ body{
     margin: 0 auto;
     
     border-radius: 7px;
-    padding: 5px 5px;
+    padding: 2px 5px;
     color: white;
-    margin-bottom: 50px;
+    margin-bottom: 10px;
 }
 .testimony__img{
     width: 100%;
@@ -116,6 +116,11 @@ body{
     object-fit: cover;
     object-position: top;
    
+}
+.map__img{
+    height: 500px;
+    width: 500px;
+    object-fit: cover;
 }
 @media screen and (max-width:967px) {
     .hero__texts{
@@ -159,6 +164,10 @@ body{
     .tesimony__person{
         flex-direction: column;
        
+    }
+    .map__img{
+        height: 500px;
+        width: auto;
     }
  
    
