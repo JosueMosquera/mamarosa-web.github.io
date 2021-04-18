@@ -156,9 +156,7 @@ body{
     .testimony__item{
         padding: 0 10px;
     }
-    .tesimony__person{
-        flex-direction: column;
-    }
+    
  
    
 }
