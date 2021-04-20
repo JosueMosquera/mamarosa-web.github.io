@@ -180,7 +180,7 @@ body{
 .nav{
     display: flex;
     justify-content: flex-start;
-    height: 70px;
+    
     align-items: center;
     font-weight: 400;
 }
@@ -209,24 +209,26 @@ body{
       gap: 20px;
   }
   .footer__grid{
-      grid-template-columns: 1fr;
+      grid-template-columns:1fr
+      
+    ;
     
   }
     .footer__contact{
         grid-row: 2/1;
     }
     .nav{
-        flex-wrap: wrap;
-       justify-content: space-evenly;
+        
+       flex-direction: column;
        margin-top: 10px;
        
 
        
    }
    .nav__items--footer{
-       padding:0px 0px;
+       padding:2px 0px;
        text-align: center;
-       padding-left: 30px;
+    
    }
   
  
@@ -276,9 +278,9 @@ body{
         
     }
     .nav__items--footer{
-        padding: 0px 5px;
+        padding: 2px 0px;
         border: 0;
-        margin-left: 3px;
+        
         
         
     }
