@@ -29,7 +29,7 @@ body{
 }
 .hero{
     height: 100vh;
-    background-image:var(--background),url(../assets/sandra-seitamaa-OFJGlG3sKik-unsplash.jpg);
+    background-image:var(--background),url(../assets/WhatsApp\ Image\ 2021-04-30\ at\ 20.56.24.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -134,7 +134,7 @@ body{
 }
 .footer__grid{
     display: grid;
-    grid-template-columns: 3fr 2fr;
+    grid-template-columns: 2fr 2fr;
     gap: 20px;
     align-items: center;
 }
@@ -148,6 +148,8 @@ body{
 .footer__icons{
     display: flex;
     justify-content: space-evenly;
+    
+    
 }
 .footer__container-icons{
     display: inline-block;
@@ -216,6 +218,7 @@ body{
   }
     .footer__contact{
         grid-row: 2/1;
+        
     }
     .nav{
         
@@ -286,9 +289,18 @@ body{
     }
    
 }
-@media screen and (max-width:362px) {
+@media screen and (max-width:392px) {
     .hero__title{
         font-size: 2rem;
+    }
+    .footer__container-icons{
+        width: 55px;
+        height: 55px;
+        
+    }
+    .footer__icon{
+        font-size: 25px;
+        
     }
     
 }
